@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-07-25T12:35:55+00:00",
+ "generated_utc": "2026-07-25T14:51:44+00:00",
  "currency": "GBP",
  "search": {
   "nights": 7,
@@ -75,16 +75,6 @@
    "cheapest_departure": "2026-11-27",
    "hotel": "Constance Ephelia, Mahe"
   },
-  "island-preskil-resort-mahebourg-mauritius": {
-   "price": 1282,
-   "board": "half board",
-   "nights": 7,
-   "adults": 2,
-   "rooms": 1,
-   "basis": "total for the room, accommodation only",
-   "cheapest_departure": "2026-08-29",
-   "hotel": "Preskil Island Resort"
-  },
   "kuredu-maldives-resort-spa-kuredu-island-maldives": {
    "price": 1089,
    "board": "full board",
@@ -94,16 +84,6 @@
    "basis": "total for the room, accommodation only",
    "cheapest_departure": "2026-08-29",
    "hotel": "Kuredu Resort & Spa"
-  },
-  "maritim-mauritius-resort-spa-balaclava-mauritius": {
-   "price": 907,
-   "board": "breakfast",
-   "nights": 7,
-   "adults": 2,
-   "rooms": 1,
-   "basis": "total for the room, accommodation only",
-   "cheapest_departure": "2026-08-29",
-   "hotel": "Maritim Resort & Spa Mauritius"
   },
   "mora-the-zanzibar-matemwe-zanzibar-tanzania": {
    "price": 1582,
@@ -166,13 +146,13 @@
    "hotel": "Riu Jambo"
   },
   "allamanda-by-doubletree-hilton-resort-seychelles-spa-mahe-island-seychelles-seychelles": {
-   "price": 2770,
+   "price": 2695,
    "board": "half board",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
-   "cheapest_departure": "2026-09-28",
+   "cheapest_departure": "2026-08-29",
    "hotel": "DoubleTree by Hilton Seychelles - Allamanda Resort"
   },
   "attitude-matemwe-zanzibar-tanzania": {
@@ -186,7 +166,7 @@
    "hotel": "Matemwe Attitude"
   },
   "balaclava-fort-intercontinental-mauritius-resort-balaclava-mauritius": {
-   "price": 1778,
+   "price": 1739,
    "board": "room only",
    "nights": 7,
    "adults": 2,
@@ -236,7 +216,7 @@
    "hotel": "Sarova Whitesands Beach Resort & Spa"
   },
   "cliff-resort-sea-spa-mangapwani-tanzania": {
-   "price": 1323,
+   "price": 1280,
    "board": "half board",
    "nights": 7,
    "adults": 2,
@@ -246,7 +226,7 @@
    "hotel": "Sea Cliff Resort and Spa Zanzibar"
   },
   "cliff-resort-sea-spa-zanzibar-zanzibar-tanzania": {
-   "price": 1323,
+   "price": 1280,
    "board": "half board",
    "nights": 7,
    "adults": 2,
@@ -266,7 +246,7 @@
    "hotel": "Victoria Falls Rainbow"
   },
   "intercontinental-mauritius-resort-balaclava-balaclava-mauritius": {
-   "price": 1778,
+   "price": 1739,
    "board": "room only",
    "nights": 7,
    "adults": 2,
@@ -274,16 +254,6 @@
    "basis": "total for the room, accommodation only",
    "cheapest_departure": "2027-01-26",
    "hotel": "InterContinental Mauritius Resort Balaclava Fort"
-  },
-  "maritim-resort-spa-balaclava-mauritius": {
-   "price": 907,
-   "board": "breakfast",
-   "nights": 7,
-   "adults": 2,
-   "rooms": 1,
-   "basis": "total for the room, accommodation only",
-   "cheapest_departure": "2026-08-29",
-   "hotel": "Maritim Resort & Spa Mauritius"
   }
  }
 }
