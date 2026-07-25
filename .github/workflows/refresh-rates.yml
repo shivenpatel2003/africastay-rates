@@ -1,18 +1,22 @@
 name: Refresh AfricaStay widget rates
 
-# Runs every night at 02:30 UTC. The booking engine's search takes ~30 seconds
-# per destination per departure date, so the whole run is roughly 30 minutes.
-# Nothing on the website calls the booking engine directly; the site only reads
-# the rates.json this job commits.
+# Runs nightly at 02:30 UTC. Three steps, and all three are needed:
+#
+#   rate_fetcher_v2.py        destination searches, prices most cards
+#   calendar_prices.py        reads the remaining hotels' own page calendars,
+#                             because a destination search never returns them
+#   destination_tile_prices.py  cheapest card per destination, for the tiles
+#
+# Running only the first would drop nine card prices and all six tiles.
 on:
   schedule:
     - cron: "30 2 * * *"
-  workflow_dispatch:        # lets you trigger it by hand from the Actions tab
+  workflow_dispatch:
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 150      # 19 code searches x 6 dates, ~90 min on GitHub runners
 
     steps:
       - uses: actions/checkout@v4
@@ -24,8 +28,14 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Fetch live rates
+      - name: Search prices per destination
         run: python rate_fetcher_v2.py
+
+      - name: Price the hotels the search cannot reach
+        run: python calendar_prices.py
+
+      - name: Set the destination tile prices
+        run: python destination_tile_prices.py
 
       - name: Check the output before publishing it
         run: |
@@ -33,13 +43,17 @@ jobs:
           import json, sys
           d = json.load(open("rates.json"))
           r = d.get("rates", {})
-          if len(r) < 15:
-              sys.exit(f"Only {len(r)} prices returned; expected around 27. "
+          tiles = {k: v for k, v in r.items() if v.get("is_destination_tile")}
+          cards = {k: v for k, v in r.items() if not v.get("is_destination_tile")}
+          if len(cards) < 25:
+              sys.exit(f"Only {len(cards)} card prices; expected around 40. "
                        "Not publishing a partial run.")
+          if len(tiles) < 5:
+              sys.exit(f"Only {len(tiles)} destination tiles; expected 6.")
           bad = [k for k, v in r.items() if not (200 <= v["price"] <= 25000)]
           if bad:
               sys.exit(f"Prices out of range: {bad}")
-          print(f"{len(r)} prices, generated {d['generated_utc']}")
+          print(f"{len(cards)} cards, {len(tiles)} tiles, generated {d['generated_utc']}")
           EOF
 
       - name: Commit if anything changed
