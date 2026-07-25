@@ -1,0 +1,52 @@
+name: Refresh AfricaStay widget rates
+
+# Runs every night at 02:30 UTC. The booking engine's search takes ~30 seconds
+# per destination per departure date, so the whole run is roughly 30 minutes.
+# Nothing on the website calls the booking engine directly; the site only reads
+# the rates.json this job commits.
+on:
+  schedule:
+    - cron: "30 2 * * *"
+  workflow_dispatch:        # lets you trigger it by hand from the Actions tab
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch live rates
+        run: python rate_fetcher_v2.py
+
+      - name: Check the output before publishing it
+        run: |
+          python - <<'EOF'
+          import json, sys
+          d = json.load(open("rates.json"))
+          r = d.get("rates", {})
+          if len(r) < 15:
+              sys.exit(f"Only {len(r)} prices returned; expected around 27. "
+                       "Not publishing a partial run.")
+          bad = [k for k, v in r.items() if not (200 <= v["price"] <= 25000)]
+          if bad:
+              sys.exit(f"Prices out of range: {bad}")
+          print(f"{len(r)} prices, generated {d['generated_utc']}")
+          EOF
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "africastay-rates-bot"
+          git config user.email "actions@github.com"
+          git add rates.json
+          git diff --staged --quiet && echo "no change" && exit 0
+          git commit -m "Refresh rates $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
