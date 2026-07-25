@@ -314,6 +314,72 @@
    "basis": "total for the room, accommodation only",
    "cheapest_departure": "2026-08-29",
    "hotel": "Sandies Bathala Maldives"
+  },
+  "kenya": {
+   "price": 1161,
+   "board": "half board",
+   "nights": 7,
+   "adults": 2,
+   "rooms": 1,
+   "basis": "total for the room, accommodation only",
+   "cheapest_departure": "2026-08-29",
+   "hotel": "Diani Reef Beach Resort and Spa",
+   "is_destination_tile": true
+  },
+  "maldives": {
+   "price": 1089,
+   "board": "full board",
+   "nights": 7,
+   "adults": 2,
+   "rooms": 1,
+   "basis": "total for the room, accommodation only",
+   "cheapest_departure": "2026-08-29",
+   "hotel": "Kuredu Resort & Spa",
+   "is_destination_tile": true
+  },
+  "mauritius": {
+   "price": 907,
+   "board": "breakfast",
+   "nights": 7,
+   "adults": 2,
+   "rooms": 1,
+   "basis": "total for the room, accommodation only",
+   "cheapest_departure": "2026-08-29",
+   "hotel": "Maritim Resort & Spa Mauritius",
+   "is_destination_tile": true
+  },
+  "seychelles": {
+   "price": 2663,
+   "board": "breakfast",
+   "nights": 7,
+   "adults": 2,
+   "rooms": 1,
+   "basis": "total for the room, accommodation only",
+   "cheapest_departure": "2026-11-27",
+   "hotel": "Constance Ephelia, Mahe",
+   "is_destination_tile": true
+  },
+  "victoria-falls": {
+   "price": 288,
+   "board": "room only",
+   "nights": 3,
+   "adults": 2,
+   "rooms": 1,
+   "basis": "total for the room, accommodation only",
+   "cheapest_departure": "2026-09-28",
+   "hotel": "Victoria Falls Rainbow",
+   "is_destination_tile": true
+  },
+  "zanzibar": {
+   "price": 555,
+   "board": "half board",
+   "nights": 7,
+   "adults": 2,
+   "rooms": 1,
+   "basis": "total for the room, accommodation only",
+   "cheapest_departure": "2026-11-27",
+   "hotel": "Azao Resort & Spa",
+   "is_destination_tile": true
   }
  }
 }
