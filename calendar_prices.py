@@ -86,32 +86,80 @@ def main():
     ap.add_argument("--rates", default="rates.json")
     ap.add_argument("--nights", type=int, default=7)
     ap.add_argument("--pause", type=float, default=1.0)
+    ap.add_argument("--all", action="store_true",
+                    help="price every card from its own page, not just the "
+                         "ones without a price. Needs no mapping at all.")
+    ap.add_argument("--urls", default="card_urls.csv",
+                    help="slug,url for every card; written by --export-urls")
+    ap.add_argument("--export-urls", action="store_true",
+                    help="write card_urls.csv from the crawl, then stop")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--compare", action="store_true",
                     help="run against cards that already have a search price, "
                          "and show both, to see whether the two agree")
     args = ap.parse_args()
 
-    for f in (args.map, args.rates):
+    need = [args.rates] if ("--all" in sys.argv or "--export-urls" in sys.argv) \
+           else [args.map, args.rates]
+    for f in need:
         if not os.path.exists(f):
             sys.exit(f"{f} not found.")
 
+    # Only the widget cards, not every hotel link on the site. The crawl
+    # contains text links, area links and anchor fragments; taking all of
+    # them gave 1,128 "cards" including things like "#A".
     url_for = {}
-    for src in ("widget_inventory.csv", "link_worklist.csv"):
-        if not os.path.exists(src):
-            continue
-        with open(src, newline="", encoding="utf-8-sig") as fh:
+    if os.path.exists(args.urls):
+        with open(args.urls, newline="", encoding="utf-8-sig") as fh:
             for r in csv.DictReader(fh):
-                for col in ("Linked URL", "REPLACE with", "FIND this link"):
-                    u = r.get(col, "")
-                    if u and "/accommodation/" in u:
-                        url_for.setdefault(u.rstrip("/").split("/")[-1], u)
+                url_for[r["slug"]] = r["url"]
+
+    def usable(u):
+        if not u or "/accommodation/" not in u or "#" in u:
+            return False
+        tail = [x for x in u.split("/accommodation/")[-1].split("/") if x]
+        return len(tail) >= 3          # in-Area / Country / hotel-slug
+
+    if not url_for and os.path.exists("widget_inventory.csv"):
+        with open("widget_inventory.csv", newline="", encoding="utf-8-sig") as fh:
+            for r in csv.DictReader(fh):
+                # only cards that carry a price. The crawl holds 1,238 widget
+                # cards across 361 pages; the ones this brief is about are the
+                # ~41 that display a "from" price on the curated pages.
+                if not r.get("Widget variant", "").startswith("Widget"):
+                    continue
+                if not (r.get("Price shown (GBP)") or "").strip():
+                    continue
+                u = r.get("Linked URL", "")
+                if usable(u):
+                    url_for.setdefault(u.rstrip("/").split("/")[-1], u)
+
+    # anything relinked today, so the new URLs are covered too
+    if os.path.exists("link_worklist.csv"):
+        with open("link_worklist.csv", newline="", encoding="utf-8-sig") as fh:
+            for r in csv.DictReader(fh):
+                u = r.get("REPLACE with", "")
+                if usable(u):
+                    url_for.setdefault(u.rstrip("/").split("/")[-1], u)
+
+    if args.export_urls:
+        if not url_for:
+            sys.exit("No crawl data found to export URLs from.")
+        with open(args.urls, "w", newline="", encoding="utf-8-sig") as fh:
+            w = csv.writer(fh); w.writerow(["slug", "url"])
+            for k, v in sorted(url_for.items()):
+                w.writerow([k, v])
+        print(f"  {len(url_for)} card URLs -> {args.urls}")
+        print("  Upload that to the repo and the nightly job needs no mapping.")
+        return
 
     feed = json.load(open(args.rates, encoding="utf-8"))
     rates = feed.setdefault("rates", {})
 
-    with open(args.map, newline="", encoding="utf-8-sig") as fh:
-        rows = list(csv.DictReader(fh))
+    rows = []
+    if os.path.exists(args.map):
+        with open(args.map, newline="", encoding="utf-8-sig") as fh:
+            rows = list(csv.DictReader(fh))
     if args.compare:
         todo = [r for r in rows
                 if r.get("confidence") != "DESTINATION TILE"
@@ -119,6 +167,15 @@ def main():
                 and not rates[r["card_slug"]].get("is_destination_tile")][:12]
         if not todo:
             sys.exit("No priced cards to compare against.")
+    elif args.all:
+        if len(url_for) > 120:
+            sys.exit(f"{len(url_for)} card URLs found, which is far more than the "
+                     "~41 priced cards this is for. Check card_urls.csv before "
+                     "running with --all.")
+        # every card we have a URL for. No mapping, no search, no matching:
+        # each price comes from that card's own hotel page.
+        todo = [{"card_slug": s, "card_label": s} for s in sorted(url_for)]
+        rates.clear()
     else:
         todo = [r for r in rows
                 if r.get("confidence") != "DESTINATION TILE"
