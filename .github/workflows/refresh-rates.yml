@@ -1,13 +1,23 @@
 name: Refresh AfricaStay widget rates
 
-# Runs nightly at 02:30 UTC. Three steps, and all three are needed:
+# Runs nightly at 02:30 UTC. Three steps, in order:
 #
-#   rate_fetcher_v2.py        destination searches, prices most cards
-#   calendar_prices.py        reads the remaining hotels' own page calendars,
-#                             because a destination search never returns them
-#   destination_tile_prices.py  cheapest card per destination, for the tiles
+#   rate_fetcher_v2.py          destination searches, prices most cards.
+#                               Needs price_map.csv with valid engine_id values.
+#   calendar_prices.py          reads the remaining hotels' own page calendars,
+#                               because a destination search never returns them.
+#                               Needs card_urls.csv.
+#   destination_tile_prices.py  cheapest card per destination, for the tiles.
 #
-# Running only the first would drop nine card prices and all six tiles.
+# Files the repo must hold:
+#   rate_fetcher_v2.py  price_map.csv
+#   calendar_prices.py  card_urls.csv
+#   destination_tile_prices.py
+#   rates.json
+#
+# The run that failed did so because price_map.csv had been rebuilt against a
+# single destination, leaving almost every row without an engine_id, so the
+# search priced one card. The check at the end caught it and published nothing.
 on:
   schedule:
     - cron: "30 2 * * *"
@@ -16,7 +26,7 @@ on:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 150      # 19 code searches x 6 dates, ~90 min on GitHub runners
+    timeout-minutes: 150
 
     steps:
       - uses: actions/checkout@v4
@@ -27,6 +37,19 @@ jobs:
 
       - name: Install dependencies
         run: pip install requests
+
+      - name: Check the mapping before spending an hour on it
+        run: |
+          python - <<'EOF'
+          import csv, sys
+          rows = [r for r in csv.DictReader(open("price_map.csv", encoding="utf-8-sig"))
+                  if r.get("Confirmed (Y/N)", "").strip().upper() == "Y"]
+          with_id = [r for r in rows if r.get("engine_id", "").strip()]
+          print(f"{len(rows)} confirmed rows, {len(with_id)} with an engine_id")
+          if len(with_id) < 20:
+              sys.exit("price_map.csv has lost its engine_id values. Rebuild it "
+                       "with --build-map and apply_decisions.py before running.")
+          EOF
 
       - name: Search prices per destination
         run: python rate_fetcher_v2.py
