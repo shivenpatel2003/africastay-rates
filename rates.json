@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-07-25T19:37:13+00:00",
+ "generated_utc": "2026-07-25T20:34:46+00:00",
  "currency": "GBP",
  "search": {
   "nights": 7,
@@ -36,13 +36,13 @@
    "hotel": "Azao Resort & Spa"
   },
   "baobab-beach-resort-spa-diani-beach-kenya": {
-   "price": 2004,
+   "price": 2384,
    "board": "all inclusive",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
-   "cheapest_departure": "2026-11-27",
+   "cheapest_departure": "2027-01-26",
    "hotel": "BAOBAB BEACH RESORT"
   },
   "bathala-maldives-sandies-bathala-island-maldives": {
@@ -107,23 +107,23 @@
   },
   "resort-spa-tarisa-mauritius-island-mauritius": {
    "price": 976,
-   "board": "half board",
+   "board": "breakfast",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
-   "cheapest_departure": "2026-11-27",
-   "hotel": "Tarisa Resort & Spa"
+   "cheapest_departure": "2026-08-29",
+   "hotel": "Tarisa resort & Spa"
   },
   "resort-spa-tarisa-mont-choisy-mauritius": {
    "price": 976,
-   "board": "half board",
+   "board": "breakfast",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
-   "cheapest_departure": "2026-11-27",
-   "hotel": "Tarisa Resort & Spa"
+   "cheapest_departure": "2026-08-29",
+   "hotel": "Tarisa resort & Spa"
   },
   "adaaran-meedhupparu-select-meedhupparu-maldives": {
    "price": 2273,
@@ -176,8 +176,8 @@
    "hotel": "Matemwe Attitude"
   },
   "balaclava-fort-intercontinental-mauritius-resort-balaclava-mauritius": {
-   "price": 1778,
-   "board": "room only",
+   "price": 402,
+   "board": "half board",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
@@ -186,13 +186,13 @@
    "hotel": "InterContinental Mauritius Resort Balaclava Fort"
   },
   "beach-diamonds-mapenzi-pwani-mchangani-zanzibar-tanzania": {
-   "price": 1606,
-   "board": "all inclusive",
+   "price": 226,
+   "board": "breakfast",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
-   "cheapest_departure": "2026-10-28",
+   "cheapest_departure": "2026-12-27",
    "hotel": "Diamonds Mapenzi Beach"
   },
   "beach-diani-reef-resort-spa-diani-beach-kenya": {
@@ -226,7 +226,7 @@
    "hotel": "Sarova Whitesands Beach Resort & Spa"
   },
   "cliff-resort-sea-spa-mangapwani-tanzania": {
-   "price": 1323,
+   "price": 1280,
    "board": "half board",
    "nights": 7,
    "adults": 2,
@@ -236,7 +236,7 @@
    "hotel": "Sea Cliff Resort and Spa Zanzibar"
   },
   "cliff-resort-sea-spa-zanzibar-zanzibar-tanzania": {
-   "price": 1323,
+   "price": 1280,
    "board": "half board",
    "nights": 7,
    "adults": 2,
@@ -256,8 +256,8 @@
    "hotel": "Victoria Falls Rainbow"
   },
   "intercontinental-mauritius-resort-balaclava-balaclava-mauritius": {
-   "price": 1778,
-   "board": "room only",
+   "price": 402,
+   "board": "half board",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
@@ -284,46 +284,6 @@
    "basis": "total for the room, accommodation only",
    "cheapest_departure": "2026-11-27",
    "hotel": "The Mora Zanzibar"
-  },
-  "adaaran-meedhupparu-select-maldives-all-maldives": {
-   "price": 2273,
-   "board": "all inclusive",
-   "nights": 7,
-   "adults": 2,
-   "rooms": 1,
-   "basis": "total for the room, accommodation only",
-   "cheapest_departure": "2026-08-29",
-   "hotel": "Adaaran Select Meedhupparu"
-  },
-  "kuredu-maldives-resort-spa-maldives-all-maldives": {
-   "price": 1089,
-   "board": "full board",
-   "nights": 7,
-   "adults": 2,
-   "rooms": 1,
-   "basis": "total for the room, accommodation only",
-   "cheapest_departure": "2026-08-29",
-   "hotel": "Kuredu Resort & Spa"
-  },
-  "adaaran-hudhuranfushi-select-maldives-all-maldives": {
-   "price": 1842,
-   "board": "all inclusive",
-   "nights": 7,
-   "adults": 2,
-   "rooms": 1,
-   "basis": "total for the room, accommodation only",
-   "cheapest_departure": "2026-08-29",
-   "hotel": "Adaaran Select Hudhuranfushi"
-  },
-  "bathala-maldives-sandies-maldives-all-maldives": {
-   "price": 1749,
-   "board": "all inclusive",
-   "nights": 7,
-   "adults": 2,
-   "rooms": 1,
-   "basis": "total for the room, accommodation only",
-   "cheapest_departure": "2026-08-29",
-   "hotel": "Sandies Bathala Maldives"
   },
   "all-inclusive-riu-turquoise-le-morne-mauritius": {
    "price": 1631,
@@ -446,25 +406,25 @@
    "per_night": 544.0
   },
   "zanzibar": {
-   "price": 555,
-   "board": "half board",
-   "nights": 7,
-   "adults": 2,
-   "rooms": 1,
-   "basis": "total for the room, accommodation only",
-   "hotel": "Azao Resort & Spa",
-   "from_card": "azao-resort-spa-pongwe-zanzibar-tanzania",
-   "is_destination_tile": true
-  },
-  "mauritius": {
-   "price": 907,
+   "price": 226,
    "board": "breakfast",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
-   "hotel": "Maritim Resort & Spa Mauritius",
-   "from_card": "maritim-mauritius-resort-spa-balaclava-mauritius",
+   "hotel": "Diamonds Mapenzi Beach",
+   "from_card": "beach-diamonds-mapenzi-pwani-mchangani-zanzibar-tanzania",
+   "is_destination_tile": true
+  },
+  "mauritius": {
+   "price": 402,
+   "board": "half board",
+   "nights": 7,
+   "adults": 2,
+   "rooms": 1,
+   "basis": "total for the room, accommodation only",
+   "hotel": "InterContinental Mauritius Resort Balaclava Fort",
+   "from_card": "balaclava-fort-intercontinental-mauritius-resort-balaclava-mauritius",
    "is_destination_tile": true
   },
   "maldives": {
