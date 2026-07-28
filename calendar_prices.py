@@ -41,7 +41,31 @@ HEAD = re.compile(r'id="hotel_header_min_price".{0,300}?([\d,]+)<sup>(\d\d)</sup
 # structured data, a useful cross-check
 LD = re.compile(r'"priceRange"\s*:\s*"GBP\s*([\d,]+)\s*-\s*GBP\s*([\d,]+)"')
 
-MIN_NIGHT, MAX_NIGHT = 25.0, 4000.0
+# Per-night bounds. GBP 34 a night at a four-star Zanzibar resort is genuine,
+# confirmed against the page itself, so the floor stays low.
+# Per-night bounds, for reading the calendar. GBP 34 a night at a four-star
+# Zanzibar resort is genuine, confirmed against the page itself.
+MIN_NIGHT, MAX_NIGHT = 20.0, 4000.0
+
+# Bounds on the published weekly total. One room was live at GBP 125,490 due
+# to a supplier data error, so nothing outside this band is published.
+MIN_SANE, MAX_SANE = 200.0, 25000.0
+
+# Cross-check against the search-based price where rates.json already has one.
+# Measured across 11 hotels with both: the calendar sits at 0.63 to 0.78 of the
+# search price, which is a sensible "from" discount. Two were far outside that
+# (JW Marriott 0.07, Medhufushi 0.18) because something on those pages reads as
+# a nightly rate and is not one. Anything below this floor is not published.
+RATIO_FLOOR = 0.40
+
+# Which night to take as the "from" price.
+#   0.0  the outright cheapest, which is what the hotel page displays as its
+#        own "from" figure. Amaan shows GBP 34.12 a night this way.
+#   0.2  the 20th-percentile night, closer to what a real week costs. Amaan's
+#        search-based price for the same week was GBP 572 against GBP 238 from
+#        the cheapest night, so the two methods do not otherwise agree.
+# Set this from measured data rather than by guesswork.
+PERCENTILE = 0.0
 
 
 def num(s):
@@ -67,7 +91,15 @@ def read_page(session, url):
     ld = LD.search(html)
     ld_low = num(ld.group(1)) if ld else None
 
-    cheapest = min(pool)
+    # PERCENTILE controls which night is taken. 0.0 is the outright cheapest,
+    # which matches the "from" figure the hotel page itself displays. A higher
+    # value gives a night closer to what a real week costs, at the price of no
+    # longer matching the page. Set from measured data, not by guesswork.
+    ordered = sorted(pool)
+    if PERCENTILE > 0 and len(ordered) >= 8:
+        cheapest = ordered[max(0, int(len(ordered) * PERCENTILE) - 1)]
+    else:
+        cheapest = min(ordered)
     # the page's own header figure and the structured data should agree with
     # the calendar. If they do not, something has been misread.
     for other in (header, ld_low):
@@ -75,7 +107,12 @@ def read_page(session, url):
             return None, (f"calendar says {cheapest:,.0f} but the page says "
                           f"{other:,.0f}; not publishing a figure I cannot reconcile")
 
-    return {"per_night": cheapest, "nights_found": len(nights),
+    # A cheapest night far below the typical night on the same page suggests one
+    # stray element rather than a genuine low season.
+
+
+    return {"per_night": cheapest, "outright_cheapest": min(pool),
+            "nights_found": len(nights),
             "months_found": len(months), "header": header,
             "median_night": statistics.median(pool)}, ""
 
@@ -155,6 +192,9 @@ def main():
 
     feed = json.load(open(args.rates, encoding="utf-8"))
     rates = feed.setdefault("rates", {})
+    # keep the pre-existing prices so a new reading can be sanity-checked
+    # against whatever produced them
+    previous = {k: v.get("price") for k, v in rates.items() if v.get("price")}
 
     rows = []
     if os.path.exists(args.map):
@@ -168,10 +208,14 @@ def main():
         if not todo:
             sys.exit("No priced cards to compare against.")
     elif args.all:
-        if len(url_for) > 120:
-            sys.exit(f"{len(url_for)} card URLs found, which is far more than the "
-                     "~41 priced cards this is for. Check card_urls.csv before "
-                     "running with --all.")
+        # Was 120, on the assumption of ~41 priced cards. The July relink work
+        # added the new bookable records alongside the old URLs, so both sets
+        # are present and ~130 is now correct. The guard exists to catch a
+        # runaway export (it once found 1,128 including anchor fragments), so
+        # it stays, just higher.
+        if len(url_for) > 400:
+            sys.exit(f"{len(url_for)} card URLs found, far more than expected. "
+                     "Check card_urls.csv before running with --all.")
         # every card we have a URL for. No mapping, no search, no matching:
         # each price comes from that card's own hotel page.
         todo = [{"card_slug": s, "card_label": s} for s in sorted(url_for)]
@@ -212,6 +256,16 @@ def main():
 
         n = nights_for(slug)
         total = round(info["per_night"] * n)
+        if not (MIN_SANE <= total <= MAX_SANE):
+            print(f"weekly total {total:,} is outside "
+                  f"{MIN_SANE:,.0f}-{MAX_SANE:,.0f}, not publishing")
+            failed.append(label); continue
+
+        was = previous.get(slug)
+        if was and total < was * RATIO_FLOOR:
+            print(f"reads {total:,} but the search gave {was:,} "
+                  f"(x{total/was:.2f}); too far apart to publish")
+            failed.append(label); continue
         if args.compare:
             was = rates[slug]["price"]
             diff = (total - was) / was * 100 if was else 0
