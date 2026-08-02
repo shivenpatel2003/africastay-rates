@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-08-01T05:44:18+00:00",
+ "generated_utc": "2026-08-02T05:44:43+00:00",
  "currency": "GBP",
  "search": {
   "nights": 7,
@@ -286,14 +286,14 @@
    "per_night": 269.0
   },
   "bathala-maldives-sandies-maldives-all-locations-maldives": {
-   "price": 1883,
+   "price": 1946,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 269.0
+   "per_night": 278.0
   },
   "bay-beach-beau-berjaya-casino-resort-vallon-3-stars-seychelles-island-seychelles": {
    "price": 917,
@@ -336,14 +336,14 @@
    "per_night": 289.0
   },
   "beach-diani-reef-resort-spa-diani-beach-kenya": {
-   "price": 854,
+   "price": 882,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 122.0
+   "per_night": 126.0
   },
   "beach-leopard-resort-spa-diani-beach-kenya": {
    "price": 833,
@@ -356,14 +356,14 @@
    "per_night": 119.0
   },
   "beach-lily-resort-spa-5-stars-maldives-maldives": {
-   "price": 3920,
+   "price": 3913,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 560.0
+   "per_night": 559.0
   },
   "beach-mauritius-oberoi-resort-the-mauritius-island-mauritius": {
    "price": 3185,
@@ -776,14 +776,14 @@
    "per_night": 249.0
   },
   "jambo-riu-zanzibar-tanzania": {
-   "price": 1239,
+   "price": 1134,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 177.0
+   "per_night": 162.0
   },
   "jani-soneva-maldives-all-locations-maldives": {
    "price": 14875,
@@ -1006,14 +1006,14 @@
    "per_night": 249.0
   },
   "royal-island-resort-maldives-horubadhoo-usa": {
-   "price": 1771,
+   "price": 1820,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 253.0
+   "per_night": 260.0
   },
   "seychelles-story-mahe-island-seychelles-seychelles": {
    "price": 2688,
