@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-08-09T04:02:49+00:00",
+ "generated_utc": "2026-08-10T04:16:54+00:00",
  "currency": "GBP",
  "search": {
   "nights": 7,
@@ -276,14 +276,14 @@
    "per_night": 159.0
   },
   "baobab-beach-resort-spa-diani-beach-kenya": {
-   "price": 1932,
+   "price": 1687,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 276.0
+   "per_night": 241.0
   },
   "bathala-maldives-sandies-maldives-all-locations-maldives": {
    "price": 1995,
@@ -386,24 +386,24 @@
    "per_night": 213.0
   },
   "beach-neptune-pwani-resort-spa-zanzibar-tanzania": {
-   "price": 2016,
+   "price": 2156,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 288.0
+   "per_night": 308.0
   },
   "beach-palms-resort-southern-diani-beach-kenya": {
-   "price": 1421,
+   "price": 1414,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 203.0
+   "per_night": 202.0
   },
   "beach-resort-sarova-whitesands-mombasa-kenya": {
    "price": 1029,
@@ -506,14 +506,14 @@
    "per_night": 270.0
   },
   "cinnamon-maldives-velifushi-maldives-all-locations-maldives": {
-   "price": 2429,
+   "price": 2373,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 347.0
+   "per_night": 339.0
   },
   "cliff-resort-sea-spa-zanzibar-5-stars-zanzibar-tanzania": {
    "price": 980,
@@ -576,14 +576,14 @@
    "per_night": 162.0
   },
   "emerald-faarufushi-resort-spa-maldives-all-locations-maldives": {
-   "price": 4620,
+   "price": 5257,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 660.0
+   "per_night": 751.0
   },
   "emerald-maldives-resort-spa-maldives-all-locations-maldives": {
    "price": 4382,
@@ -956,14 +956,14 @@
    "per_night": 162.0
   },
   "olhuveli-siyam-sun-maldives-all-locations-maldives": {
-   "price": 2051,
+   "price": 2065,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 293.0
+   "per_night": 295.0
   },
   "palm-river-the-victoria-falls-zimbabwe": {
    "price": 1332,
