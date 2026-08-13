@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-08-12T04:26:11+00:00",
+ "generated_utc": "2026-08-13T04:29:49+00:00",
  "currency": "GBP",
  "search": {
   "nights": 7,
@@ -26,14 +26,14 @@
    "per_night": 194.0
   },
   "adaaran-meedhupparu-select-maldives-all-locations-maldives": {
-   "price": 2184,
+   "price": 2191,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 312.0
+   "per_night": 313.0
   },
   "adaaran-meedhupparu-select-meedhupparu-maldives": {
    "price": 3143,
@@ -86,24 +86,24 @@
    "per_night": 486.0
   },
   "all-inclusive-riu-turquoise-le-morne-mauritius": {
-   "price": 1673,
+   "price": 1680,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 239.0
+   "per_night": 240.0
   },
   "allamanda-by-doubletree-hilton-resort-seychelles-spa-mahe-island-seychelles-seychelles": {
-   "price": 2198,
+   "price": 2212,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 314.0
+   "per_night": 316.0
   },
   "amaan-bungalows-zanzibar-tanzania": {
    "price": 238,
@@ -116,64 +116,64 @@
    "per_night": 34.0
   },
   "anantara-kihavah-maldives-villas-maldives-all-locations-maldives": {
-   "price": 8407,
+   "price": 8442,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 1201.0
+   "per_night": 1206.0
   },
   "anantara-maia-seychelles-villas-mahe-island-seychelles-seychelles": {
-   "price": 11690,
+   "price": 11746,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 1670.0
+   "per_night": 1678.0
   },
   "angaga-island-resort-spa-maldives-all-locations-maldives": {
-   "price": 1862,
+   "price": 1869,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 266.0
+   "per_night": 267.0
   },
   "astoria-ithaafushi-maldives-waldorf-maldives-all-locations-maldives": {
-   "price": 14553,
+   "price": 14616,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 2079.0
+   "per_night": 2088.0
   },
   "at-four-giraavaru-landaa-maldives-resort-seasons-maldives-all-locations-maldives": {
-   "price": 10472,
+   "price": 10521,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 1496.0
+   "per_night": 1503.0
   },
   "at-four-huraa-kuda-maldives-resort-seasons-maldives-all-locations-maldives": {
-   "price": 5747,
+   "price": 5768,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 821.0
+   "per_night": 824.0
   },
   "athuruga-beach-diamonds-villas-water-maldives-all-maldives": {
    "price": 1974,
@@ -186,74 +186,74 @@
    "per_night": 282.0
   },
   "athuruga-diamonds-maldives-resort-spa-athuruga-maldives": {
-   "price": 4046,
+   "price": 4060,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 578.0
+   "per_night": 580.0
   },
   "atmosphere-kanifushi-maldives-maldives-all-locations-maldives": {
-   "price": 5159,
+   "price": 5180,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 737.0
+   "per_night": 740.0
   },
   "atoll-riu-maldives-all-locations-maldives": {
-   "price": 1715,
+   "price": 1722,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 245.0
+   "per_night": 246.0
   },
   "attitude-matemwe-zanzibar-tanzania": {
-   "price": 1344,
+   "price": 1351,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 192.0
+   "per_night": 193.0
   },
   "attitude-ravenala-the-balaclava-mauritius": {
-   "price": 1316,
+   "price": 1323,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 188.0
+   "per_night": 189.0
   },
   "attitude-zilwa-mauritius-island-mauritius": {
-   "price": 1225,
+   "price": 1232,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 175.0
+   "per_night": 176.0
   },
   "ayada-maldives-maldives-all-locations-maldives": {
-   "price": 2359,
+   "price": 2366,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 337.0
+   "per_night": 338.0
   },
   "azao-resort-spa-pongwe-zanzibar-tanzania": {
    "price": 588,
@@ -266,44 +266,44 @@
    "per_night": 84.0
   },
   "bamburi-beach-mombasa-kenya": {
-   "price": 1106,
+   "price": 1113,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 158.0
+   "per_night": 159.0
   },
   "baobab-beach-resort-spa-diani-beach-kenya": {
-   "price": 1680,
+   "price": 1687,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 240.0
+   "per_night": 241.0
   },
   "bathala-maldives-sandies-maldives-all-locations-maldives": {
-   "price": 1925,
+   "price": 1932,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 275.0
+   "per_night": 276.0
   },
   "bay-beach-beau-berjaya-casino-resort-vallon-3-stars-seychelles-island-seychelles": {
-   "price": 924,
+   "price": 931,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 132.0
+   "per_night": 133.0
   },
   "beach-berjaya-praslin-3-stars-seychelles-island-seychelles": {
    "price": 854,
@@ -316,14 +316,14 @@
    "per_night": 122.0
   },
   "beach-diamonds-mapenzi-zanzibar-tanzania": {
-   "price": 1386,
+   "price": 1393,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 198.0
+   "per_night": 199.0
   },
   "beach-diamonds-thudufushi-villas-water-maldives-all-maldives": {
    "price": 2023,
@@ -336,114 +336,114 @@
    "per_night": 289.0
   },
   "beach-diani-reef-resort-spa-diani-beach-kenya": {
-   "price": 903,
+   "price": 910,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 129.0
+   "per_night": 130.0
   },
   "beach-leopard-resort-spa-diani-beach-kenya": {
-   "price": 847,
+   "price": 854,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 121.0
+   "per_night": 122.0
   },
   "beach-lily-resort-spa-5-stars-maldives-maldives": {
-   "price": 3864,
+   "price": 3878,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 552.0
+   "per_night": 554.0
   },
   "beach-mauritius-oberoi-resort-the-mauritius-island-mauritius": {
-   "price": 3248,
+   "price": 3262,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 464.0
+   "per_night": 466.0
   },
   "beach-neptune-paradise-resort-spa-mombasa-kenya": {
-   "price": 1484,
+   "price": 1491,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 212.0
+   "per_night": 213.0
   },
   "beach-neptune-pwani-resort-spa-zanzibar-tanzania": {
-   "price": 2149,
+   "price": 2156,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 307.0
+   "per_night": 308.0
   },
   "beach-palms-resort-southern-diani-beach-kenya": {
-   "price": 1407,
+   "price": 1414,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 201.0
+   "per_night": 202.0
   },
   "beach-resort-sarova-whitesands-mombasa-kenya": {
-   "price": 1029,
+   "price": 1036,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 147.0
+   "per_night": 148.0
   },
   "beach-resort-tanzanite-zanzibar-tanzania": {
-   "price": 609,
+   "price": 616,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 87.0
+   "per_night": 88.0
   },
   "beachcomber-luxury-palm-royal-mauritius-island-mauritius": {
-   "price": 3920,
+   "price": 3934,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 560.0
+   "per_night": 562.0
   },
   "blu-lafayette-mauritius-poste-radisson-resort-spa-mauritius-island-mauritius": {
-   "price": 1540,
+   "price": 1547,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 220.0
+   "per_night": 221.0
   },
   "blue-my-zanzibar-tanzania": {
    "price": 931,
@@ -456,64 +456,64 @@
    "per_night": 133.0
   },
   "bolifushi-ozen-reserve-maldives-all-locations-maldives": {
-   "price": 11123,
+   "price": 11172,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 1589.0
+   "per_night": 1596.0
   },
   "carlton-fari-islands-maldives-ritz-the-maldives-all-locations-maldives": {
-   "price": 12229,
+   "price": 12278,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 1747.0
+   "per_night": 1754.0
   },
   "choice-coral-smart-strand-4-stars-seychelles-island-seychelles": {
-   "price": 1624,
+   "price": 1631,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 232.0
+   "per_night": 233.0
   },
   "cinnamon-dhonveli-maldives-maldives-all-locations-maldives": {
-   "price": 1463,
+   "price": 1470,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 209.0
+   "per_night": 210.0
   },
   "cinnamon-hakuraa-huraa-maldives-maldives-all-locations-maldives": {
-   "price": 1883,
+   "price": 1890,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 269.0
+   "per_night": 270.0
   },
   "cinnamon-maldives-velifushi-maldives-all-locations-maldives": {
-   "price": 2268,
+   "price": 2464,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 324.0
+   "per_night": 352.0
   },
   "cliff-resort-sea-spa-zanzibar-5-stars-zanzibar-tanzania": {
    "price": 980,
@@ -526,24 +526,24 @@
    "per_night": 140.0
   },
   "constance-ephelia-mahe-island-seychelles-seychelles": {
-   "price": 3129,
+   "price": 3143,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 447.0
+   "per_night": 449.0
   },
   "constance-lemuria-seychelles-5-stars-seychelles-island-seychelles": {
-   "price": 4739,
+   "price": 4760,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 677.0
+   "per_night": 680.0
   },
   "constance-maldives-moofushi-maldives-all-locations-maldives": {
    "price": 4319,
@@ -576,84 +576,84 @@
    "per_night": 162.0
   },
   "emerald-faarufushi-resort-spa-maldives-all-locations-maldives": {
-   "price": 4599,
+   "price": 4620,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 657.0
+   "per_night": 660.0
   },
   "emerald-maldives-resort-spa-maldives-all-locations-maldives": {
-   "price": 4396,
+   "price": 4333,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 628.0
+   "per_night": 619.0
   },
   "falls-lodge-safari-victoria-victoria-falls-zimbabwe": {
-   "price": 969,
+   "price": 975,
    "board": "",
    "nights": 3,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 323.0
+   "per_night": 325.0
   },
   "four-resort-seasons-seychelles-mahe-island-seychelles-seychelles": {
-   "price": 11886,
+   "price": 11935,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 1698.0
+   "per_night": 1705.0
   },
   "fushi-huvafen-maldives-all-locations-maldives": {
-   "price": 6874,
+   "price": 6902,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 982.0
+   "per_night": 986.0
   },
   "fushi-iru-siyam-sun-the-maldives-all-locations-maldives": {
-   "price": 2492,
+   "price": 2499,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 356.0
+   "per_night": 357.0
   },
   "fushi-soneva-maldives-all-locations-maldives": {
-   "price": 14819,
+   "price": 14882,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 2117.0
+   "per_night": 2126.0
   },
   "hilton-northolme-resort-seychelles-spa-seychelles-all-seychelles": {
-   "price": 2891,
+   "price": 2905,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 413.0
+   "per_night": 415.0
   },
   "innahura-maldives-resort-maldives-all-locations-maldives": {
    "price": 3549,
@@ -666,24 +666,24 @@
    "per_night": 507.0
   },
   "intercontinental-mauritius-resort-balaclava-fort-balaclava-bolivia": {
-   "price": 1610,
+   "price": 1596,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 230.0
+   "per_night": 228.0
   },
   "island-jumeirah-maldives-olhahali-maldives-all-locations-maldives": {
-   "price": 7224,
+   "price": 7259,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 1032.0
+   "per_night": 1037.0
   },
   "island-kagi-maldives-spa-maldives-all-locations-maldives": {
    "price": 2457,
@@ -696,14 +696,14 @@
    "per_night": 351.0
   },
   "island-maldives-milaidhoo-maldives-all-locations-maldives": {
-   "price": 8729,
+   "price": 8764,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 1247.0
+   "per_night": 1252.0
   },
   "island-maldives-resort-summer-maldives-all-locations-maldives": {
    "price": 1596,
@@ -726,6 +726,16 @@
    "per_night": 110.0
   },
   "island-nautica-paradise-resort-villa-maldives-all-locations-maldives": {
+   "price": 1344,
+   "board": "",
+   "nights": 7,
+   "adults": 2,
+   "rooms": 1,
+   "basis": "total for the room, accommodation only",
+   "source": "hotel page calendar",
+   "per_night": 192.0
+  },
+  "island-park-resort-sun-villa-5-stars-maldives-maldives": {
    "price": 1337,
    "board": "",
    "nights": 7,
@@ -734,16 +744,6 @@
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
    "per_night": 191.0
-  },
-  "island-park-resort-sun-villa-5-stars-maldives-maldives": {
-   "price": 1330,
-   "board": "",
-   "nights": 7,
-   "adults": 2,
-   "rooms": 1,
-   "basis": "total for the room, accommodation only",
-   "source": "hotel page calendar",
-   "per_night": 190.0
   },
   "island-preskil-resort-mahebourg-mauritius": {
    "price": 1246,
@@ -776,44 +776,44 @@
    "per_night": 249.0
   },
   "jambo-riu-zanzibar-tanzania": {
-   "price": 1260,
+   "price": 1267,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 180.0
+   "per_night": 181.0
   },
   "jani-soneva-maldives-all-locations-maldives": {
-   "price": 15176,
+   "price": 15239,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 2168.0
+   "per_night": 2177.0
   },
   "joali-maldives-maldives-all-locations-maldives": {
-   "price": 13601,
+   "price": 13664,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 1943.0
+   "per_night": 1952.0
   },
   "jw-maldives-marriott-resort-spa-maldives-all-locations-maldives": {
-   "price": 3612,
+   "price": 3626,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 516.0
+   "per_night": 518.0
   },
   "kandima-maldives-maldives-all-maldives": {
    "price": 1015,
@@ -836,104 +836,104 @@
    "per_night": 155.0
   },
   "le-m-ridien-ile-maurice-pointe-aux-piments-norway": {
-   "price": 2177,
+   "price": 2191,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 311.0
+   "per_night": 313.0
   },
   "lodge-the-wallow-victoria-falls-zimbabwe": {
-   "price": 1671,
+   "price": 1680,
    "board": "",
    "nights": 3,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 557.0
+   "per_night": 560.0
   },
   "lux-grand-baie-resort-residences-pereybere-usa": {
-   "price": 2660,
+   "price": 2667,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 380.0
+   "per_night": 381.0
   },
   "lux-grand-gaube-resort-villas-grand-gaube-new-zealand": {
-   "price": 1708,
+   "price": 1715,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 244.0
+   "per_night": 245.0
   },
   "maldivas-palace-riu-maldives-all-locations-maldives": {
-   "price": 2107,
+   "price": 2114,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 301.0
+   "per_night": 302.0
   },
   "maldives-regis-resort-st-the-vommuli-maldives-all-locations-maldives": {
-   "price": 12348,
+   "price": 12404,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 1764.0
+   "per_night": 1772.0
   },
   "maldives-siyam-world-maldives-all-locations-maldives": {
-   "price": 3822,
+   "price": 3843,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 546.0
+   "per_night": 549.0
   },
   "maritim-mauritius-resort-spa-balaclava-mauritius": {
-   "price": 1176,
+   "price": 1183,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 168.0
+   "per_night": 169.0
   },
   "meeru-maldives-resort-island-meeru-maldives": {
-   "price": 1470,
+   "price": 1477,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 210.0
+   "per_night": 211.0
   },
   "mora-the-zanzibar-matemwe-zanzibar-tanzania": {
-   "price": 1771,
+   "price": 1778,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 253.0
+   "per_night": 254.0
   },
   "nungwi-dreams-by-mantis-nungwi-norway": {
    "price": 882,
@@ -956,114 +956,114 @@
    "per_night": 162.0
   },
   "olhuveli-siyam-sun-maldives-all-locations-maldives": {
-   "price": 2191,
+   "price": 2205,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 313.0
+   "per_night": 315.0
   },
   "palm-river-the-victoria-falls-zimbabwe": {
-   "price": 1326,
+   "price": 1332,
    "board": "",
    "nights": 3,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 442.0
+   "per_night": 444.0
   },
   "paradise-sun-praslin-island-seychelles-seychelles": {
-   "price": 3556,
+   "price": 3577,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 508.0
+   "per_night": 511.0
   },
   "raffles-seychelles-praslin-island-seychelles-seychelles": {
-   "price": 5936,
+   "price": 5957,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 848.0
+   "per_night": 851.0
   },
   "robinson-maldives-funamadua-maldives": {
-   "price": 2107,
+   "price": 2114,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 301.0
+   "per_night": 302.0
   },
   "royal-island-resort-maldives-horubadhoo-usa": {
-   "price": 1736,
+   "price": 1743,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 248.0
+   "per_night": 249.0
   },
   "seychelles-story-mahe-island-seychelles-seychelles": {
-   "price": 2737,
+   "price": 2751,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 391.0
+   "per_night": 393.0
   },
   "sultan-sands-island-resort-spa-kiwengwa-mauritania": {
-   "price": 1092,
+   "price": 1099,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 156.0
+   "per_night": 157.0
   },
   "tarisa-resort-spa-trou-aux-biches-indonesia": {
-   "price": 665,
+   "price": 672,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 95.0
+   "per_night": 96.0
   },
   "the-westin-turtle-bay-resort-spa-balaclava-bolivia": {
-   "price": 1974,
+   "price": 1988,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 282.0
+   "per_night": 284.0
   },
   "zuri-zanzibar-kendwa-brazil": {
-   "price": 3535,
+   "price": 3549,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 505.0
+   "per_night": 507.0
   },
   "zanzibar": {
    "price": 238,
@@ -1077,7 +1077,7 @@
    "is_destination_tile": true
   },
   "mauritius": {
-   "price": 1176,
+   "price": 1183,
    "board": "",
    "nights": 7,
    "adults": 2,
@@ -1110,7 +1110,7 @@
    "is_destination_tile": true
   },
   "kenya": {
-   "price": 847,
+   "price": 854,
    "board": "",
    "nights": 7,
    "adults": 2,
@@ -1121,7 +1121,7 @@
    "is_destination_tile": true
   },
   "victoria-falls": {
-   "price": 969,
+   "price": 975,
    "board": "",
    "nights": 3,
    "adults": 2,
