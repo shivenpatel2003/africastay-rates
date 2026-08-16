@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-08-15T03:18:40+00:00",
+ "generated_utc": "2026-08-16T03:30:29+00:00",
  "currency": "GBP",
  "search": {
   "nights": 7,
@@ -406,14 +406,14 @@
    "per_night": 201.0
   },
   "beach-resort-sarova-whitesands-mombasa-kenya": {
-   "price": 1029,
+   "price": 1036,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 147.0
+   "per_night": 148.0
   },
   "beach-resort-tanzanite-zanzibar-tanzania": {
    "price": 609,
@@ -666,14 +666,14 @@
    "per_night": 507.0
   },
   "intercontinental-mauritius-resort-balaclava-fort-balaclava-bolivia": {
-   "price": 1589,
+   "price": 1610,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 227.0
+   "per_night": 230.0
   },
   "island-jumeirah-maldives-olhahali-maldives-all-locations-maldives": {
    "price": 7224,
@@ -736,14 +736,14 @@
    "per_night": 191.0
   },
   "island-park-resort-sun-villa-5-stars-maldives-maldives": {
-   "price": 1330,
+   "price": 1365,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 190.0
+   "per_night": 195.0
   },
   "island-preskil-resort-mahebourg-mauritius": {
    "price": 1246,
@@ -956,14 +956,14 @@
    "per_night": 162.0
   },
   "olhuveli-siyam-sun-maldives-all-locations-maldives": {
-   "price": 1974,
+   "price": 2191,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 282.0
+   "per_night": 313.0
   },
   "palm-river-the-victoria-falls-zimbabwe": {
    "price": 1326,
