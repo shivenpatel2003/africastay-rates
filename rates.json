@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-08-22T03:24:34+00:00",
+ "generated_utc": "2026-08-23T03:34:14+00:00",
  "currency": "GBP",
  "search": {
   "nights": 7,
@@ -286,14 +286,14 @@
    "per_night": 240.0
   },
   "bathala-maldives-sandies-maldives-all-locations-maldives": {
-   "price": 1932,
+   "price": 1911,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 276.0
+   "per_night": 273.0
   },
   "bay-beach-beau-berjaya-casino-resort-vallon-3-stars-seychelles-island-seychelles": {
    "price": 938,
@@ -476,14 +476,14 @@
    "per_night": 1750.0
   },
   "choice-coral-smart-strand-4-stars-seychelles-island-seychelles": {
-   "price": 1533,
+   "price": 1624,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 219.0
+   "per_night": 232.0
   },
   "cinnamon-dhonveli-maldives-maldives-all-locations-maldives": {
    "price": 1463,
@@ -896,14 +896,14 @@
    "per_night": 1768.0
   },
   "maldives-siyam-world-maldives-all-locations-maldives": {
-   "price": 3829,
+   "price": 3801,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 547.0
+   "per_night": 543.0
   },
   "maritim-mauritius-resort-spa-balaclava-mauritius": {
    "price": 1176,
