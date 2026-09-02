@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-09-01T07:59:47+00:00",
+ "generated_utc": "2026-09-02T07:19:39+00:00",
  "currency": "GBP",
  "search": {
   "nights": 7,
@@ -506,14 +506,14 @@
    "per_night": 270.0
   },
   "cinnamon-maldives-velifushi-maldives-all-locations-maldives": {
-   "price": 2422,
+   "price": 2513,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 346.0
+   "per_night": 359.0
   },
   "cliff-resort-sea-spa-zanzibar-5-stars-zanzibar-tanzania": {
    "price": 994,
@@ -966,14 +966,14 @@
    "per_night": 162.0
   },
   "olhuveli-siyam-sun-maldives-all-locations-maldives": {
-   "price": 1953,
+   "price": 2016,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 279.0
+   "per_night": 288.0
   },
   "palm-river-the-victoria-falls-zimbabwe": {
    "price": 1329,
