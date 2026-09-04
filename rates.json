@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-09-03T07:23:30+00:00",
+ "generated_utc": "2026-09-04T07:26:07+00:00",
  "currency": "GBP",
  "search": {
   "nights": 7,
@@ -236,14 +236,14 @@
    "per_night": 190.0
   },
   "attitude-zilwa-mauritius-island-mauritius": {
-   "price": 1260,
+   "price": 1253,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 180.0
+   "per_night": 179.0
   },
   "ayada-maldives-maldives-all-locations-maldives": {
    "price": 2380,
@@ -326,14 +326,14 @@
    "per_night": 178.0
   },
   "beach-diamonds-thudufushi-villas-water-maldives-all-maldives": {
-   "price": 2240,
+   "price": 2233,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 320.0
+   "per_night": 319.0
   },
   "beach-diani-reef-resort-spa-diani-beach-kenya": {
    "price": 917,
@@ -356,14 +356,14 @@
    "per_night": 123.0
   },
   "beach-lily-resort-spa-5-stars-maldives-maldives": {
-   "price": 3955,
+   "price": 4480,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 565.0
+   "per_night": 640.0
   },
   "beach-mauritius-oberoi-resort-the-mauritius-island-mauritius": {
    "price": 3283,
@@ -546,14 +546,14 @@
    "per_night": 452.0
   },
   "constance-lemuria-seychelles-5-stars-seychelles-island-seychelles": {
-   "price": 4788,
+   "price": 4767,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 684.0
+   "per_night": 681.0
   },
   "constance-maldives-moofushi-maldives-all-locations-maldives": {
    "price": 4319,
@@ -726,14 +726,14 @@
    "per_night": 230.0
   },
   "island-medhufushi-resort-maldives-all-locations-maldives": {
-   "price": 770,
+   "price": 833,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 110.0
+   "per_night": 119.0
   },
   "island-nautica-paradise-resort-villa-maldives-all-locations-maldives": {
    "price": 1351,
@@ -1098,7 +1098,7 @@
    "is_destination_tile": true
   },
   "maldives": {
-   "price": 770,
+   "price": 833,
    "board": "",
    "nights": 7,
    "adults": 2,
