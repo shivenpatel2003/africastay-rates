@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-09-05T07:07:36+00:00",
+ "generated_utc": "2026-09-06T07:19:11+00:00",
  "currency": "GBP",
  "search": {
   "nights": 7,
@@ -296,14 +296,14 @@
    "per_night": 279.0
   },
   "bay-beach-beau-berjaya-casino-resort-vallon-3-stars-seychelles-island-seychelles": {
-   "price": 959,
+   "price": 952,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 137.0
+   "per_night": 136.0
   },
   "beach-berjaya-praslin-3-stars-seychelles-island-seychelles": {
    "price": 861,
@@ -456,14 +456,14 @@
    "per_night": 130.0
   },
   "bolifushi-ozen-reserve-maldives-all-locations-maldives": {
-   "price": 10843,
+   "price": 11438,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 1549.0
+   "per_night": 1634.0
   },
   "carlton-fari-islands-maldives-ritz-the-maldives-all-locations-maldives": {
    "price": 12383,
@@ -626,14 +626,14 @@
    "per_night": 1720.0
   },
   "fushi-huvafen-maldives-all-locations-maldives": {
-   "price": 6965,
+   "price": 7203,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 995.0
+   "per_night": 1029.0
   },
   "fushi-iru-siyam-sun-the-maldives-all-locations-maldives": {
    "price": 2520,
@@ -646,14 +646,14 @@
    "per_night": 360.0
   },
   "fushi-soneva-maldives-all-locations-maldives": {
-   "price": 15162,
+   "price": 16695,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 2166.0
+   "per_night": 2385.0
   },
   "hilton-northolme-resort-seychelles-spa-seychelles-all-seychelles": {
    "price": 2926,
@@ -706,14 +706,14 @@
    "per_night": 351.0
   },
   "island-maldives-milaidhoo-maldives-all-locations-maldives": {
-   "price": 8918,
+   "price": 9079,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 1274.0
+   "per_night": 1297.0
   },
   "island-maldives-resort-summer-maldives-all-locations-maldives": {
    "price": 1610,
@@ -796,14 +796,14 @@
    "per_night": 183.0
   },
   "jani-soneva-maldives-all-locations-maldives": {
-   "price": 16534,
+   "price": 16583,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 2362.0
+   "per_night": 2369.0
   },
   "joali-maldives-maldives-all-locations-maldives": {
    "price": 14252,
@@ -1016,14 +1016,14 @@
    "per_night": 304.0
   },
   "royal-island-resort-maldives-horubadhoo-usa": {
-   "price": 1757,
+   "price": 1869,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 251.0
+   "per_night": 267.0
   },
   "seychelles-story-mahe-island-seychelles-seychelles": {
    "price": 2779,
