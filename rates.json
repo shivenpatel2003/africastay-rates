@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-09-19T07:32:53+00:00",
+ "generated_utc": "2026-09-20T07:56:32+00:00",
  "currency": "GBP",
  "search": {
   "nights": 7,
@@ -306,14 +306,14 @@
    "per_night": 276.0
   },
   "bay-beach-beau-berjaya-casino-resort-vallon-3-stars-seychelles-island-seychelles": {
-   "price": 931,
+   "price": 924,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 133.0
+   "per_night": 132.0
   },
   "beach-berjaya-praslin-3-stars-seychelles-island-seychelles": {
    "price": 861,
@@ -326,14 +326,14 @@
    "per_night": 123.0
   },
   "beach-diamonds-mapenzi-zanzibar-tanzania": {
-   "price": 1372,
+   "price": 1337,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 196.0
+   "per_night": 191.0
   },
   "beach-diamonds-thudufushi-villas-water-maldives-all-maldives": {
    "price": 2219,
@@ -416,24 +416,24 @@
    "per_night": 202.0
   },
   "beach-resort-sarova-whitesands-mombasa-kenya": {
-   "price": 1008,
+   "price": 1036,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 144.0
+   "per_night": 148.0
   },
   "beach-resort-tanzanite-zanzibar-tanzania": {
-   "price": 609,
+   "price": 567,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 87.0
+   "per_night": 81.0
   },
   "beachcomber-luxury-palm-royal-mauritius-island-mauritius": {
    "price": 4368,
@@ -746,14 +746,14 @@
    "per_night": 139.0
   },
   "island-nautica-paradise-resort-villa-maldives-all-locations-maldives": {
-   "price": 1344,
+   "price": 1596,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 192.0
+   "per_night": 228.0
   },
   "island-park-resort-sun-villa-5-stars-maldives-maldives": {
    "price": 1316,
@@ -826,14 +826,14 @@
    "per_night": 2374.0
   },
   "jw-maldives-marriott-resort-spa-maldives-all-locations-maldives": {
-   "price": 3626,
+   "price": 3689,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 518.0
+   "per_night": 527.0
   },
   "kandima-maldives-maldives-all-maldives": {
    "price": 1197,
