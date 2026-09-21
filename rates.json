@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-09-20T07:56:32+00:00",
+ "generated_utc": "2026-09-21T08:12:33+00:00",
  "currency": "GBP",
  "search": {
   "nights": 7,
@@ -526,14 +526,14 @@
    "per_night": 361.0
   },
   "cliff-resort-sea-spa-zanzibar-5-stars-zanzibar-tanzania": {
-   "price": 987,
+   "price": 973,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 141.0
+   "per_night": 139.0
   },
   "cliff-resort-sea-spa-zanzibar-zanzibar-tanzania": {
    "price": 1449,
@@ -946,14 +946,14 @@
    "per_night": 211.0
   },
   "mora-the-zanzibar-matemwe-zanzibar-tanzania": {
-   "price": 1778,
+   "price": 2338,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 254.0
+   "per_night": 334.0
   },
   "nungwi-dreams-by-mantis-nungwi-norway": {
    "price": 882,
@@ -1056,14 +1056,14 @@
    "per_night": 157.0
   },
   "tarisa-resort-spa-trou-aux-biches-indonesia": {
-   "price": 672,
+   "price": 714,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 96.0
+   "per_night": 102.0
   },
   "the-westin-turtle-bay-resort-spa-balaclava-bolivia": {
    "price": 1918,
