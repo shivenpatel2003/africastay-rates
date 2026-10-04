@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-03T08:31:56+00:00",
+ "generated_utc": "2026-10-04T08:44:20+00:00",
  "currency": "GBP",
  "search": {
   "nights": 7,
@@ -156,14 +156,14 @@
    "per_night": 2061.0
   },
   "at-four-giraavaru-landaa-maldives-resort-seasons-maldives-all-locations-maldives": {
-   "price": 11788,
+   "price": 12586,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 1684.0
+   "per_night": 1798.0
   },
   "at-four-huraa-kuda-maldives-resort-seasons-maldives-all-locations-maldives": {
    "price": 5698,
@@ -246,14 +246,14 @@
    "per_night": 176.0
   },
   "ayada-maldives-maldives-all-locations-maldives": {
-   "price": 2989,
+   "price": 2884,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 427.0
+   "per_night": 412.0
   },
   "azao-resort-spa-pongwe-zanzibar-tanzania": {
    "price": 581,
@@ -326,14 +326,14 @@
    "per_night": 121.0
   },
   "beach-diamonds-mapenzi-zanzibar-tanzania": {
-   "price": 1106,
+   "price": 1113,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 158.0
+   "per_night": 159.0
   },
   "beach-diamonds-thudufushi-villas-water-maldives-all-maldives": {
    "price": 2632,
@@ -466,14 +466,14 @@
    "per_night": 131.0
   },
   "bolifushi-ozen-reserve-maldives-all-locations-maldives": {
-   "price": 10087,
+   "price": 9912,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 1441.0
+   "per_night": 1416.0
   },
   "carlton-fari-islands-maldives-ritz-the-maldives-all-locations-maldives": {
    "price": 13475,
