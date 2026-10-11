@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-10T08:54:07+00:00",
+ "generated_utc": "2026-10-11T09:15:26+00:00",
  "currency": "GBP",
  "search": {
   "nights": 7,
@@ -106,14 +106,14 @@
    "per_night": 314.0
   },
   "amaan-bungalows-zanzibar-tanzania": {
-   "price": 434,
+   "price": 427,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 62.0
+   "per_night": 61.0
   },
   "anantara-kihavah-maldives-villas-maldives-all-locations-maldives": {
    "price": 9779,
@@ -296,34 +296,34 @@
    "per_night": 275.0
   },
   "bay-beach-beau-berjaya-casino-resort-vallon-3-stars-seychelles-island-seychelles": {
-   "price": 945,
+   "price": 938,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 135.0
+   "per_night": 134.0
   },
   "beach-berjaya-praslin-3-stars-seychelles-island-seychelles": {
-   "price": 854,
+   "price": 847,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 122.0
+   "per_night": 121.0
   },
   "beach-diamonds-mapenzi-zanzibar-tanzania": {
-   "price": 1127,
+   "price": 1120,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 161.0
+   "per_night": 160.0
   },
   "beach-diamonds-thudufushi-villas-water-maldives-all-maldives": {
    "price": 2653,
@@ -1066,7 +1066,7 @@
    "per_night": 505.0
   },
   "zanzibar": {
-   "price": 434,
+   "price": 427,
    "board": "",
    "nights": 7,
    "adults": 2,
@@ -1099,7 +1099,7 @@
    "is_destination_tile": true
   },
   "seychelles": {
-   "price": 854,
+   "price": 847,
    "board": "",
    "nights": 7,
    "adults": 2,
