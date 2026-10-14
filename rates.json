@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-13T09:43:48+00:00",
+ "generated_utc": "2026-10-14T07:59:47+00:00",
  "currency": "GBP",
  "search": {
   "nights": 7,
@@ -256,14 +256,14 @@
    "per_night": 416.0
   },
   "azao-resort-spa-pongwe-zanzibar-tanzania": {
-   "price": 588,
+   "price": 560,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 84.0
+   "per_night": 80.0
   },
   "balaclava-fort-intercontinental-mauritius-resort-balaclava-mauritius": {
    "price": 1701,
@@ -426,14 +426,14 @@
    "per_night": 202.0
   },
   "beach-resort-sarova-whitesands-mombasa-kenya": {
-   "price": 1029,
+   "price": 1022,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 147.0
+   "per_night": 146.0
   },
   "beach-resort-tanzanite-zanzibar-tanzania": {
    "price": 623,
@@ -496,14 +496,14 @@
    "per_night": 1946.0
   },
   "choice-coral-smart-strand-4-stars-seychelles-island-seychelles": {
-   "price": 1687,
+   "price": 1554,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 241.0
+   "per_night": 222.0
   },
   "cinnamon-dhonveli-maldives-maldives-all-locations-maldives": {
    "price": 1582,
@@ -1004,6 +1004,16 @@
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
    "per_night": 450.0
+  },
+  "paradise-sun-praslin-island-seychelles-seychelles": {
+   "price": 2485,
+   "board": "",
+   "nights": 7,
+   "adults": 2,
+   "rooms": 1,
+   "basis": "total for the room, accommodation only",
+   "source": "hotel page calendar",
+   "per_night": 355.0
   },
   "raffles-seychelles-praslin-island-seychelles-seychelles": {
    "price": 5943,
