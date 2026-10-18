@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-17T07:11:22+00:00",
+ "generated_utc": "2026-10-18T07:26:06+00:00",
  "currency": "GBP",
  "search": {
   "nights": 7,
@@ -106,14 +106,14 @@
    "per_night": 318.0
   },
   "amaan-bungalows-zanzibar-tanzania": {
-   "price": 434,
+   "price": 420,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 62.0
+   "per_night": 60.0
   },
   "anantara-kihavah-maldives-villas-maldives-all-locations-maldives": {
    "price": 9737,
@@ -336,14 +336,14 @@
    "per_night": 121.0
   },
   "beach-diamonds-mapenzi-zanzibar-tanzania": {
-   "price": 1113,
+   "price": 1120,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 159.0
+   "per_night": 160.0
   },
   "beach-diamonds-thudufushi-villas-water-maldives-all-maldives": {
    "price": 2639,
@@ -536,14 +536,14 @@
    "per_night": 358.0
   },
   "cliff-resort-sea-spa-zanzibar-5-stars-zanzibar-tanzania": {
-   "price": 959,
+   "price": 952,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 137.0
+   "per_night": 136.0
   },
   "cliff-resort-sea-spa-zanzibar-zanzibar-tanzania": {
    "price": 1449,
@@ -1106,7 +1106,7 @@
    "per_night": 503.0
   },
   "zanzibar": {
-   "price": 434,
+   "price": 420,
    "board": "",
    "nights": 7,
    "adults": 2,
