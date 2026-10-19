@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-18T07:26:06+00:00",
+ "generated_utc": "2026-10-19T08:05:00+00:00",
  "currency": "GBP",
  "search": {
   "nights": 7,
@@ -256,14 +256,14 @@
    "per_night": 416.0
   },
   "azao-resort-spa-pongwe-zanzibar-tanzania": {
-   "price": 546,
+   "price": 532,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 78.0
+   "per_night": 76.0
   },
   "balaclava-fort-intercontinental-mauritius-resort-balaclava-mauritius": {
    "price": 1701,
@@ -316,14 +316,14 @@
    "per_night": 274.0
   },
   "bay-beach-beau-berjaya-casino-resort-vallon-3-stars-seychelles-island-seychelles": {
-   "price": 959,
+   "price": 938,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 137.0
+   "per_night": 134.0
   },
   "beach-berjaya-praslin-3-stars-seychelles-island-seychelles": {
    "price": 847,
@@ -496,14 +496,14 @@
    "per_night": 1933.0
   },
   "choice-coral-smart-strand-4-stars-seychelles-island-seychelles": {
-   "price": 1540,
+   "price": 1386,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 220.0
+   "per_night": 198.0
   },
   "cinnamon-dhonveli-maldives-maldives-all-locations-maldives": {
    "price": 1575,
@@ -536,14 +536,14 @@
    "per_night": 358.0
   },
   "cliff-resort-sea-spa-zanzibar-5-stars-zanzibar-tanzania": {
-   "price": 952,
+   "price": 959,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 136.0
+   "per_night": 137.0
   },
   "cliff-resort-sea-spa-zanzibar-zanzibar-tanzania": {
    "price": 1449,
@@ -996,14 +996,14 @@
    "per_night": 323.0
   },
   "palm-river-the-victoria-falls-zimbabwe": {
-   "price": 1302,
+   "price": 1299,
    "board": "",
    "nights": 3,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 434.0
+   "per_night": 433.0
   },
   "paradise-sun-praslin-island-seychelles-seychelles": {
    "price": 2485,
@@ -1056,14 +1056,14 @@
    "per_night": 291.0
   },
   "seychelles-story-mahe-island-seychelles-seychelles": {
-   "price": 2891,
+   "price": 2863,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 413.0
+   "per_night": 409.0
   },
   "sultan-sands-island-resort-spa-kiwengwa-mauritania": {
    "price": 1092,
