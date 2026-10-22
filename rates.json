@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-21T07:58:53+00:00",
+ "generated_utc": "2026-10-22T07:55:22+00:00",
  "currency": "GBP",
  "search": {
   "nights": 7,
@@ -536,14 +536,14 @@
    "per_night": 358.0
   },
   "cliff-resort-sea-spa-zanzibar-5-stars-zanzibar-tanzania": {
-   "price": 952,
+   "price": 903,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 136.0
+   "per_night": 129.0
   },
   "cliff-resort-sea-spa-zanzibar-zanzibar-tanzania": {
    "price": 1456,
