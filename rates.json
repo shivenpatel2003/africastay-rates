@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-24T07:35:34+00:00",
+ "generated_utc": "2026-10-25T07:49:07+00:00",
  "currency": "GBP",
  "search": {
   "nights": 7,
@@ -666,14 +666,14 @@
    "per_night": 2492.0
   },
   "hilton-northolme-resort-seychelles-spa-seychelles-all-seychelles": {
-   "price": 2842,
+   "price": 2884,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 406.0
+   "per_night": 412.0
   },
   "innahura-maldives-resort-maldives-all-locations-maldives": {
    "price": 3899,
@@ -996,14 +996,14 @@
    "per_night": 320.0
   },
   "palm-river-the-victoria-falls-zimbabwe": {
-   "price": 1287,
+   "price": 1290,
    "board": "",
    "nights": 3,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 429.0
+   "per_night": 430.0
   },
   "paradise-sun-praslin-island-seychelles-seychelles": {
    "price": 2485,
