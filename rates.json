@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-08T09:26:03+00:00",
+ "generated_utc": "2026-11-09T10:11:57+00:00",
  "currency": "GBP",
  "search": {
   "nights": 7,
@@ -86,14 +86,14 @@
    "per_night": 486.0
   },
   "all-inclusive-riu-turquoise-le-morne-mauritius": {
-   "price": 1638,
+   "price": 1603,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 234.0
+   "per_night": 229.0
   },
   "allamanda-by-doubletree-hilton-resort-seychelles-spa-mahe-island-seychelles-seychelles": {
    "price": 2226,
@@ -336,14 +336,14 @@
    "per_night": 165.0
   },
   "beach-diamonds-thudufushi-villas-water-maldives-all-maldives": {
-   "price": 2632,
+   "price": 2639,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 376.0
+   "per_night": 377.0
   },
   "beach-diani-reef-resort-spa-diani-beach-kenya": {
    "price": 896,
@@ -996,14 +996,14 @@
    "per_night": 305.0
   },
   "palm-river-the-victoria-falls-zimbabwe": {
-   "price": 1296,
+   "price": 1299,
    "board": "",
    "nights": 3,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 432.0
+   "per_night": 433.0
   },
   "paradise-sun-praslin-island-seychelles-seychelles": {
    "price": 2485,
