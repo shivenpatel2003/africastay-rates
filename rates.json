@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-21T10:08:46+00:00",
+ "generated_utc": "2026-11-22T10:10:50+00:00",
  "currency": "GBP",
  "search": {
   "nights": 7,
@@ -286,14 +286,14 @@
    "per_night": 223.0
   },
   "bathala-maldives-sandies-maldives-all-locations-maldives": {
-   "price": 2660,
+   "price": 2821,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 380.0
+   "per_night": 403.0
   },
   "bay-beach-beau-berjaya-casino-resort-vallon-3-stars-seychelles-island-seychelles": {
    "price": 1022,
@@ -316,14 +316,14 @@
    "per_night": 114.0
   },
   "beach-diamonds-mapenzi-zanzibar-tanzania": {
-   "price": 1029,
+   "price": 1008,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 147.0
+   "per_night": 144.0
   },
   "beach-diamonds-thudufushi-villas-water-maldives-all-maldives": {
    "price": 2597,
@@ -496,14 +496,14 @@
    "per_night": 214.0
   },
   "cinnamon-hakuraa-huraa-maldives-maldives-all-locations-maldives": {
-   "price": 1932,
+   "price": 2184,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 276.0
+   "per_night": 312.0
   },
   "cinnamon-maldives-velifushi-maldives-all-locations-maldives": {
    "price": 2387,
@@ -726,14 +726,14 @@
    "per_night": 300.0
   },
   "island-medhufushi-resort-maldives-all-locations-maldives": {
-   "price": 896,
+   "price": 882,
    "board": "",
    "nights": 7,
    "adults": 2,
    "rooms": 1,
    "basis": "total for the room, accommodation only",
    "source": "hotel page calendar",
-   "per_night": 128.0
+   "per_night": 126.0
   },
   "island-nautica-paradise-resort-villa-maldives-all-locations-maldives": {
    "price": 1526,
@@ -1118,7 +1118,7 @@
    "is_destination_tile": true
   },
   "maldives": {
-   "price": 896,
+   "price": 882,
    "board": "",
    "nights": 7,
    "adults": 2,
